@@ -1,3 +1,6 @@
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
+
 /**
  * -------------------------------------------------------------
  * middleware.ts
@@ -16,8 +19,15 @@
  * Example: Uncomment the code below to protect the `/dashboard` route.
  */
 
-// import { NextResponse } from 'next/server';
-// import type { NextRequest } from 'next/server';
+export function middleware(request: NextRequest) {
+  // By default, allow all requests to pass through
+  return NextResponse.next();
+}
 
-// export function middleware(request: NextRequest) {
-//
+// Optional: Configure which routes use this middleware
+export const config = {
+  matcher: [
+    // Add routes that need middleware here
+    // Example: '/dashboard/:path*'
+  ]
+};

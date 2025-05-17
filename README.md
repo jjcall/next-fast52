@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 next-fast52
 
-## Getting Started
+A **friendly starter template** for building full-stack web apps with **Next.js 15**, **Tailwind CSS**, and all the essentials for shipping fast.
 
-First, run the development server:
+Use this when you want to **start building real projects** without overthinking your stack.
+
+---
+
+## ✅ What’s Included
+
+- **Next.js 15 (App Router + TypeScript)** — Production-ready framework with React 19.
+- **Tailwind CSS** — Utility-first styling that works with your custom designs.
+- **shadcn/ui** — Pre-wired headless components (buttons, dialogs, etc.) ready for your styles.
+- **Framer Motion** — For clean, simple animations.
+- **Supabase** — Auth and database client ready to connect to your project.
+- **Stripe** — Ready to hook up payments or memberships.
+- **Resend** — Pre-wired email utility for sending transactional emails.
+- **AI Clients** — OpenAI, Anthropic, and Perplexity clients to experiment with AI features.
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone This Template**
+
+```bash
+git clone https://github.com/yourusername/next-fast52.git my-app
+cd my-app
+```
+
+2. **Install Dependencies**
+
+```bash
+npm install
+```
+
+3. **Start Your Dev Server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Environment Setup
 
-## Learn More
+Copy the example env file and add your keys:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cp .env.example .env.local
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Fill in the following:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+PERPLEXITY_API_KEY=
+RESEND_API_KEY=
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧱 Ready to Build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You’ll find example files already set up to help you get started:
+
+- **\`src/components/\`** — Your reusable components (pre-wired with shadcn/ui).
+- **\`src/lib/\`** — API clients for Supabase, Stripe, and AI providers.
+- **\`src/app/api/send-email/route.ts\`** — Example email API you can extend.
+- **\`src/app/(auth)/login/page.tsx\`** — Example login page using Supabase.
+- **\`src/app/layout.tsx\`** — Your global layout and styles.
+- **\`src/app/page.tsx\`** — Your homepage.
+
+Use these as a launchpad, delete what you don’t need, and make it your own.
+
+---
+
+## 🚀 Features You Can Add
+
+This starter is ready to grow with you:
+
+- ✅ Payments with Stripe
+- ✅ Auth with Supabase
+- ✅ Transactional Emails with Resend
+- ✅ AI Features with OpenAI, Anthropic, or Perplexity
+- ✅ Beautiful UI with Tailwind + Framer Motion
+- ✅ Custom Sections and Layouts
+
+---
+
+## 📦 Pre-Installed Packages
+
+Everything is already installed and ready to use:
+
+```
+@supabase/supabase-js
+@stripe/stripe-js
+openai
+@anthropic-ai/sdk
+resend
+framer-motion
+shadcn/ui components (via /src/components/ui)
+tailwindcss
+lucide-react
+```
+
+And more.
+
+---
+
+## 🧑‍💻 Start Building
+
+There’s no right or wrong way to start.
+Grab a component, design a page, hit an API, or build a flow.
+
+### You’re already set up to ship.

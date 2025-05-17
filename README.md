@@ -15,7 +15,7 @@ Use this when you want to **start building real projects** without overthinking 
 - **[Supabase](https://supabase.com)** — Auth and database client ready to connect to your project.
 - **[Stripe](https://stripe.com)** — Ready to hook up payments or memberships.
 - **[Resend](https://resend.com)** — Pre-wired email utility for sending transactional emails.
-- **AI Clients** — [OpenAI](https://openai.com), [Anthropic](https://anthropic.com), and [Perplexity](https://perplexity.ai) clients to experiment with AI features.
+- **AI Clients** — [OpenAI](https://openai.com), [Anthropic](https://anthropic.com)
 
 ---
 
@@ -111,6 +111,32 @@ lucide-react
 ```
 
 And more.
+
+---
+
+## 📐 Project Conventions
+
+This project follows a consistent structure to keep development clean and efficient:
+
+### 📁 File Organization
+- `src/components/ui/` — Low-level UI components (shadcn/ui)
+- `src/components/sections/` — Custom page sections (Hero, Pricing, etc.)
+- `src/components/layout/` — Layout components (Navbar, Footer)
+- `src/lib/` — API clients and helpers
+- `src/app/` — Pages and routes
+
+### 🎨 Development Guidelines
+- TypeScript for all files
+- Tailwind CSS for styling (using theme tokens)
+- ES Modules for imports/exports
+- Framer Motion for animations
+- API clients from `src/lib/` (Supabase, Stripe, AI)
+
+### ⚡ Core Principles
+- Simplicity over perfection
+- Ship fast, iterate often
+- Easy to extend and maintain
+- Clean, readable code over clever solutions
 
 ---
 

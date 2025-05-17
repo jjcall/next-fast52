@@ -6,16 +6,16 @@ Use this when you want to **start building real projects** without overthinking 
 
 ---
 
-## ✅ What’s Included
+## ✅ What's Included
 
-- **Next.js 15 (App Router + TypeScript)** — Production-ready framework with React 19.
-- **Tailwind CSS** — Utility-first styling that works with your custom designs.
-- **shadcn/ui** — Pre-wired headless components (buttons, dialogs, etc.) ready for your styles.
-- **Framer Motion** — For clean, simple animations.
-- **Supabase** — Auth and database client ready to connect to your project.
-- **Stripe** — Ready to hook up payments or memberships.
-- **Resend** — Pre-wired email utility for sending transactional emails.
-- **AI Clients** — OpenAI, Anthropic, and Perplexity clients to experiment with AI features.
+- **[Next.js 15](https://nextjs.org)** (App Router + TypeScript) — Production-ready framework with React 19.
+- **[Tailwind CSS](https://tailwindcss.com)** — Utility-first styling that works with your custom designs.
+- **[shadcn/ui](https://ui.shadcn.com)** — Pre-wired headless components (buttons, dialogs, etc.) ready for your styles.
+- **[Framer Motion](https://www.framer.com/motion/)** — For clean, simple animations.
+- **[Supabase](https://supabase.com)** — Auth and database client ready to connect to your project.
+- **[Stripe](https://stripe.com)** — Ready to hook up payments or memberships.
+- **[Resend](https://resend.com)** — Pre-wired email utility for sending transactional emails.
+- **AI Clients** — [OpenAI](https://openai.com), [Anthropic](https://anthropic.com), and [Perplexity](https://perplexity.ai) clients to experiment with AI features.
 
 ---
 
@@ -68,7 +68,7 @@ RESEND_API_KEY=
 
 ## 🧱 Ready to Build
 
-You’ll find example files already set up to help you get started:
+You'll find example files already set up to help you get started:
 
 - **\`src/components/\`** — Your reusable components (pre-wired with shadcn/ui).
 - **\`src/lib/\`** — API clients for Supabase, Stripe, and AI providers.
@@ -77,7 +77,7 @@ You’ll find example files already set up to help you get started:
 - **\`src/app/layout.tsx\`** — Your global layout and styles.
 - **\`src/app/page.tsx\`** — Your homepage.
 
-Use these as a launchpad, delete what you don’t need, and make it your own.
+Use these as a launchpad, delete what you don't need, and make it your own.
 
 ---
 
@@ -116,7 +116,7 @@ And more.
 
 ## 🧑‍💻 Start Building
 
-There’s no right or wrong way to start.
+There's no right or wrong way to start.
 Grab a component, design a page, hit an API, or build a flow.
 
-### You’re already set up to ship.
+### You're already set up to ship.

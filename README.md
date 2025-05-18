@@ -85,11 +85,15 @@ This project includes **predefined Cursor rules** to help you get the most out o
 
 ### Available Cursor Rule Files
 
-| **File**                                | **Purpose**                                                                                 |
-|-----------------------------------------|---------------------------------------------------------------------------------------------|
-| <span style="white-space: nowrap;">`always-on.mdc`</span>            | Persistent base rules applied to all AI actions. Defines project structure, style, and behavior. |
-| <span style="white-space: nowrap;">`request.mdc`</span>              | Use when you want AI to build a new feature, refactor existing code, or make specific improvements. |
-| <span style="white-space: nowrap;">`diagnose.mdc`</span>             | Use when you want AI to **re-examine or fix** an issue that wasn’t fully resolved previously.       |
+- `.cursor/rules/always-on.mdc`
+  Persistent base rules applied to all AI actions. Defines project structure, style, and behavior.
+
+- `.cursor/rules/feature.mdc`
+  Use when you want AI to build a new feature, refactor existing code, or make specific improvements.
+
+- `.cursor/rules/diagnose.mdc`
+  Use when you want AI to re-examine or fix an issue that wasn’t fully resolved previously.
+
 
 ---
 

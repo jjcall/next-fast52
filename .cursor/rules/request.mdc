@@ -1,0 +1,35 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+---
+name: Feature Implementation Template
+description: Template for AI to implement new features, refactor existing code, or perform specific modification tasks.
+globs:
+  - "**/*"
+alwaysApply: false
+---
+
+# Task Execution Guidelines
+
+When implementing a new feature, refactoring code, or performing a specific modification:
+
+1. **Understand the Request**: Ensure a clear understanding of the task requirements and objectives.
+2. **Plan Before Coding**:
+   - Outline the steps required to complete the task.
+   - Identify the files and components that will be affected.
+3. **Maintain Project Standards**:
+   - Adhere to the project's coding standards and structure as defined in Base.mdc.
+   - Ensure consistency with existing code patterns and practices.
+4. **Implement with Care**:
+   - Write clean, readable, and maintainable code.
+   - Include appropriate error handling and logging.
+5. **Testing and Validation**:
+   - Write or update tests to cover new or modified functionality.
+   - Ensure all tests pass before considering the task complete.
+6. **Documentation**:
+   - Update or add documentation as necessary to explain new features or changes.
+7. **Review and Refactor**:
+   - Review the code for potential improvements.
+   - Refactor code where beneficial to enhance clarity and performance.

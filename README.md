@@ -13,7 +13,6 @@ Use this when you want to **start building real projects** without overthinking 
 - **[shadcn/ui](https://ui.shadcn.com)** — Pre-wired headless components (buttons, dialogs, etc.) ready for your styles.
 - **[Framer Motion](https://www.framer.com/motion/)** — For clean, simple animations.
 - **[Supabase](https://supabase.com)** — Auth and database client ready to connect to your project.
-- **[Stripe](https://stripe.com)** — Ready to hook up payments or memberships.
 - **[Resend](https://resend.com)** — Pre-wired email utility for sending transactional emails.
 - **AI Clients** — [OpenAI](https://openai.com), [Anthropic](https://anthropic.com)
 
@@ -60,7 +59,6 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 OPENAI_API_KEY=
 ANTHROPIC_API_KEY=
-PERPLEXITY_API_KEY=
 RESEND_API_KEY=
 ```
 
@@ -81,15 +79,40 @@ Use these as a launchpad, delete what you don't need, and make it your own.
 
 ---
 
-## 🚀 Features You Can Add
+## Next Fast 52 Cursor Rules
 
-This starter is ready to grow with you:
+This project includes **predefined Cursor rules** to help you get the most out of **AI-assisted development**. These rules where heavily inspired by [@aashari](https://github.com/aashari) and their [00 - Cursor AI Prompting Rules.md](https://gist.github.com/aashari/07cc9c1b6c0debbeb4f4d94a3a81339e) gist.
 
-- ✅ Payments with Stripe
-- ✅ Auth with Supabase
-- ✅ Transactional Emails with Resend
-- ✅ AI Features with OpenAI, or Anthropic
-- ✅ Beautiful UI with Tailwind + Framer Motion
+### Available Cursor Rule Files
+
+| **File**                                | **Purpose**                                                                                 |
+|-----------------------------------------|---------------------------------------------------------------------------------------------|
+| `.cursor/rules/always-on.mdc`            | Persistent base rules applied to all AI actions. Defines project structure, style, and behavior. |
+| `.cursor/rules/feature.mdc`              | Use when you want AI to build a new feature, refactor existing code, or make specific improvements. |
+| `.cursor/rules/diagnose.mdc`             | Use when you want AI to **re-examine or fix** an issue that wasn’t fully resolved previously.       |
+
+---
+
+### How to Use
+
+1. **Make sure Cursor is installed and running in your editor.**
+2. **Pick the Right Rule for Your Intent:**
+   - **General AI Help**: _No action needed_, `always-on.mdc` applies automatically.
+   - **New Features / Refactoring**: tag @request `.cursor/rules/feature.mdc` to guide AI behavior for building or improving code.
+   - **Debugging / Issue Diagnosis**: tag @diagnose `.cursor/rules/diagnose.mdc` to guide AI in re-analyzing and resolving issues.
+3. **Interact with Cursor as you normally would.**
+   The rule context helps Cursor provide **more relevant and consistent outputs** based on your project’s standards.
+
+---
+
+### Why This Matters
+
+By using these pre-written rule files, you ensure that:
+- AI follows your **project structure and coding conventions**.
+- AI applies **consistent problem-solving methods**.
+- You get **higher quality, more reliable** results from AI-powered suggestions.
+
+These rules make AI feel more like a **pair programming partner who actually knows your project**.
 
 ---
 
@@ -123,5 +146,3 @@ This project follows a consistent structure to keep development clean and effici
 
 There's no right or wrong way to start.
 Grab a component, design a page, hit an API, or build a flow.
-
-### You're already set up to ship.

@@ -1,0 +1,72 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+---
+name: Base Project Rules
+description: Persistent rules for the next-fast52 template to guide AI behavior.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Core Principles
+
+- **Simplicity and Speed**: Prioritize straightforward solutions that enable rapid development and deployment.
+- **Maintainability**: Ensure code is clean, readable, and easy to maintain.
+- **Consistency**: Adhere to established coding standards and project structures.
+
+# Project Structure
+
+- **Components**:
+  - Place low-level UI components in `src/components/ui/`.
+  - Place custom sections (e.g., Hero, Pricing) in `src/components/sections/`.
+  - Place layout components (e.g., Navbar, Footer) in `src/components/layout/`.
+- **Utilities**:
+  - Place API helpers (e.g., Supabase, Stripe, AI clients) in `src/lib/`.
+- **Pages and Routes**:
+  - Place all pages and routes in `src/app/`.
+
+# Coding Standards
+
+- Use **TypeScript** for all files.
+- Prefer **async/await** over Promises.
+- Use **ES Modules** (`import/export`) exclusively.
+- Avoid **default exports** unless exporting pages or top-level layouts.
+
+# Styling Guidelines
+
+- Use **Tailwind CSS** for all styling.
+- Do not hardcode colors; use theme tokens or Tailwind utilities.
+- Use **Framer Motion** for custom animations.
+- Mix **shadcn/ui components** with custom components as needed.
+
+# API and State Management
+
+- Utilize the Supabase client from `src/lib/supabaseClient.ts`.
+- Utilize the Stripe client from `src/lib/stripe.ts`.
+- Utilize the AI client from `src/lib/aiClient.ts`.
+- Use `fetch` or API Routes for server communication.
+
+# Error Handling
+
+- Log errors clearly to the console with helpful messages.
+- Return clean fallback values when possible; avoid returning raw error objects.
+
+# Developer Experience
+
+- Add helpful comments for non-obvious functions or files.
+- Avoid over-documenting self-explanatory code.
+- Maintain a fun and approachable codebase to encourage contributions.
+
+# Anti-Patterns to Avoid
+
+- Repeating client initialization; always import from `lib/`.
+- Hardcoding URLs, API keys, or tokens; use `.env.local` instead.
+- Writing overly generic helpers unless they are truly reusable.
+
+# Output Style
+
+- Prioritize code readability over cleverness.
+- Write code as if someone new to the project will be reading it next week.

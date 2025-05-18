@@ -1,0 +1,38 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+---
+name: Issue Re-Diagnosis and Fix Template
+description: Template for AI to re-diagnose and fix issues that weren't resolved previously.
+globs:
+  - "**/*"
+alwaysApply: false
+---
+
+# Issue Resolution Guidelines
+
+When re-diagnosing and attempting to fix a previously unresolved issue:
+
+1. **Review Previous Attempts**:
+   - Analyze past efforts to understand why the issue persists.
+   - Identify any gaps or oversights in earlier solutions.
+2. **Reproduce the Issue**:
+   - Attempt to replicate the problem to gain firsthand insight.
+   - Document the conditions under which the issue occurs.
+3. **Deep Dive Analysis**:
+   - Investigate related code paths and dependencies.
+   - Look for anomalies or deviations from expected behavior.
+4. **Implement a Solution**:
+   - Develop a fix that addresses the root cause of the issue.
+   - Ensure the solution aligns with project standards and practices.
+5. **Testing**:
+   - Create or update tests to verify the issue is resolved.
+   - Run the full test suite to ensure no regressions are introduced.
+6. **Documentation**:
+   - Document the issue, the analysis process, and the implemented fix.
+   - Update any relevant documentation to prevent future occurrences.
+7. **Post-Mortem Review**:
+   - Reflect on the resolution process to identify lessons learned.
+   - Suggest improvements to prevent similar issues in the future.

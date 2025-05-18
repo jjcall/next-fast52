@@ -88,7 +88,7 @@ This project includes **predefined Cursor rules** to help you get the most out o
 - `.cursor/rules/always-on.mdc`
   Persistent base rules applied to all AI actions. Defines project structure, style, and behavior.
 
-- `.cursor/rules/feature.mdc`
+- `.cursor/rules/request.mdc`
   Use when you want AI to build a new feature, refactor existing code, or make specific improvements.
 
 - `.cursor/rules/diagnose.mdc`

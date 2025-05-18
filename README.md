@@ -79,7 +79,7 @@ Use these as a launchpad, delete what you don't need, and make it your own.
 
 ---
 
-## Next Fast 52 Cursor Rules
+## 📝 Next Fast 52 Cursor Rules
 
 This project includes **predefined Cursor rules** to help you get the most out of **AI-assisted development**. These rules where heavily inspired by [@aashari](https://github.com/aashari) and their [00 - Cursor AI Prompting Rules.md](https://gist.github.com/aashari/07cc9c1b6c0debbeb4f4d94a3a81339e) gist.
 

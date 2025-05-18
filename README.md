@@ -1,6 +1,6 @@
 # 🚀 next-fast52
 
-A **friendly starter template** for building full-stack web apps with **Next.js 15**, **Tailwind CSS**, and all the essentials for shipping fast.
+A **vibe friendly starter template** for building full-stack web apps with **Next.js 15**, **Tailwind CSS**, and all the essentials for shipping fast.
 
 Use this when you want to **start building real projects** without overthinking your stack.
 
@@ -24,7 +24,7 @@ Use this when you want to **start building real projects** without overthinking 
 1. **Clone This Template**
 
 ```bash
-git clone https://github.com/yourusername/next-fast52.git my-app
+git clone https://github.com/jjcall/next-fast52.git my-app
 cd my-app
 ```
 
@@ -52,7 +52,7 @@ Copy the example env file and add your keys:
 cp .env.example .env.local
 ```
 
-Fill in the following:
+Fill in the environment variables your project will require:
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=
@@ -73,7 +73,7 @@ You'll find example files already set up to help you get started:
 - **\`src/components/\`** — Your reusable components (pre-wired with shadcn/ui).
 - **\`src/lib/\`** — API clients for Supabase, Stripe, and AI providers.
 - **\`src/app/api/send-email/route.ts\`** — Example email API you can extend.
-- **\`src/app/(auth)/login/page.tsx\`** — Example login page using Supabase.
+<!-- - **\`src/app/(auth)/login/page.tsx\`** — Example login page using Supabase. -->
 - **\`src/app/layout.tsx\`** — Your global layout and styles.
 - **\`src/app/page.tsx\`** — Your homepage.
 
@@ -88,29 +88,8 @@ This starter is ready to grow with you:
 - ✅ Payments with Stripe
 - ✅ Auth with Supabase
 - ✅ Transactional Emails with Resend
-- ✅ AI Features with OpenAI, Anthropic, or Perplexity
+- ✅ AI Features with OpenAI, or Anthropic
 - ✅ Beautiful UI with Tailwind + Framer Motion
-- ✅ Custom Sections and Layouts
-
----
-
-## 📦 Pre-Installed Packages
-
-Everything is already installed and ready to use:
-
-```
-@supabase/supabase-js
-@stripe/stripe-js
-openai
-@anthropic-ai/sdk
-resend
-framer-motion
-shadcn/ui components (via /src/components/ui)
-tailwindcss
-lucide-react
-```
-
-And more.
 
 ---
 

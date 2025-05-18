@@ -87,9 +87,9 @@ This project includes **predefined Cursor rules** to help you get the most out o
 
 | **File**                                | **Purpose**                                                                                 |
 |-----------------------------------------|---------------------------------------------------------------------------------------------|
-| `.cursor/rules/always-on.mdc`            | Persistent base rules applied to all AI actions. Defines project structure, style, and behavior. |
-| `.cursor/rules/feature.mdc`              | Use when you want AI to build a new feature, refactor existing code, or make specific improvements. |
-| `.cursor/rules/diagnose.mdc`             | Use when you want AI to **re-examine or fix** an issue that wasn’t fully resolved previously.       |
+| `always-on.mdc`            | Persistent base rules applied to all AI actions. Defines project structure, style, and behavior. |
+| `request.mdc`              | Use when you want AI to build a new feature, refactor existing code, or make specific improvements. |
+| `diagnose.mdc`             | Use when you want AI to **re-examine or fix** an issue that wasn’t fully resolved previously.       |
 
 ---
 
@@ -98,8 +98,8 @@ This project includes **predefined Cursor rules** to help you get the most out o
 1. **Make sure Cursor is installed and running in your editor.**
 2. **Pick the Right Rule for Your Intent:**
    - **General AI Help**: _No action needed_, `always-on.mdc` applies automatically.
-   - **New Features / Refactoring**: tag @request `.cursor/rules/feature.mdc` to guide AI behavior for building or improving code.
-   - **Debugging / Issue Diagnosis**: tag @diagnose `.cursor/rules/diagnose.mdc` to guide AI in re-analyzing and resolving issues.
+   - **New Features / Refactoring**: tag `@request` `.cursor/rules/feature.mdc` to guide AI behavior for building or improving code.
+   - **Debugging / Issue Diagnosis**: tag `@diagnose` `.cursor/rules/diagnose.mdc` to guide AI in re-analyzing and resolving issues.
 3. **Interact with Cursor as you normally would.**
    The rule context helps Cursor provide **more relevant and consistent outputs** based on your project’s standards.
 

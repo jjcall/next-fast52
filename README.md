@@ -88,8 +88,8 @@ This project includes **predefined Cursor rules** to help you get the most out o
 | **File**                                | **Purpose**                                                                                 |
 |-----------------------------------------|---------------------------------------------------------------------------------------------|
 | <span style="white-space: nowrap;">`always-on.mdc`</span>            | Persistent base rules applied to all AI actions. Defines project structure, style, and behavior. |
-| `request.mdc`              | Use when you want AI to build a new feature, refactor existing code, or make specific improvements. |
-| `diagnose.mdc`             | Use when you want AI to **re-examine or fix** an issue that wasn’t fully resolved previously.       |
+| <span style="white-space: nowrap;">`request.mdc`</span>              | Use when you want AI to build a new feature, refactor existing code, or make specific improvements. |
+| <span style="white-space: nowrap;">`diagnose.mdc`</span>             | Use when you want AI to **re-examine or fix** an issue that wasn’t fully resolved previously.       |
 
 ---
 

@@ -1,4 +1,4 @@
-# 🚀 next-fast52
+# 🚀 VibeShip Boilerplate
 
 A **vibe friendly starter template** for building full-stack web apps with **Next.js 15**, **Tailwind CSS**, and all the essentials for shipping fast.
 
@@ -23,7 +23,7 @@ Use this when you want to **start building real projects** without overthinking 
 1. **Clone This Template**
 
 ```bash
-git clone https://github.com/jjcall/next-fast52.git my-app
+git clone https://github.com/jjcall/vibeship-boilerplate.git my-app
 cd my-app
 ```
 
@@ -71,7 +71,6 @@ You'll find example files already set up to help you get started:
 - **\`src/components/\`** — Your reusable components (pre-wired with shadcn/ui).
 - **\`src/lib/\`** — API clients for Supabase, Stripe, and AI providers.
 - **\`src/app/api/send-email/route.ts\`** — Example email API you can extend.
-<!-- - **\`src/app/(auth)/login/page.tsx\`** — Example login page using Supabase. -->
 - **\`src/app/layout.tsx\`** — Your global layout and styles.
 - **\`src/app/page.tsx\`** — Your homepage.
 
@@ -79,7 +78,7 @@ Use these as a launchpad, delete what you don't need, and make it your own.
 
 ---
 
-## 📝 Next Fast 52 Cursor Rules
+## 📝 VibeShip Cursor Rules
 
 This project includes **predefined Cursor rules** to help you get the most out of **AI-assisted development**. These rules where heavily inspired by [@aashari](https://github.com/aashari) and their [00 - Cursor AI Prompting Rules.md](https://gist.github.com/aashari/07cc9c1b6c0debbeb4f4d94a3a81339e) gist.
 
